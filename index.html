@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<style>
+    section{
+        padding:60px 0;
+    }
+</style>
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-xxl">
+            <a href="#intro" class="navbar-brand">
+                <span class="fw-bold text-secondary">
+                    <i class="bi bi-book-half"></i>
+                    Book things
+                </span>
+            </a>
+            <!--toggle button for mobile nav-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--navbar links-->
+            <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+<ul class="navbar-nav">
+    <li class="nav-item">
+        <a class="nav-link" href="#topics">About the book</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#reviews">Reviews</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#contact">Get in touch</a>
+    </li>
+    <li class="nav-item d-md-none">
+        <a class="nav-link" href="#pricing">Pricing</a>
+    </li>
+    <li class="nav-item ms-2 d-none d-md-inline">
+        <a class="btn btn-secondary" href="#pricing">buy now</a>
+    </li>
+</ul>
+            </div>
+        </div>
+    </nav>
+    <!--section1-->
+    <section id="intro">
+    <div class="container-lg">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-5 text-center text-md-start">
+                <h1 class="display-3">Self-help book</h1>
+                <h1 class="display-5 text-muted">Get yourself discipline</h1>
+                <p class="lead my-4 text-muted">Lorem ipsum dolor nemo fuga natus, magni sint tempore.</p>
+                <a href="#pricing" class="btn btn-primary">Buy Now</a>
+                <!--open sidebar/offcanvas-->
+                <a href="#sidebar" class="d-block mt-3" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">
+                    Explore other books
+                </a>
+            </div>
+            <div class="col-md-5 text-center d-none d-md-block">
+                <!--tooltip-->
+                <span class="tt" data-bs-placement="bottom" title="Atomic habits book cover">
+                <img class="img-fluid" src="at2.jfif"alt="">
+            </span>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--pricing plans-->
+<section id="pricing" class="bg-light mt-5">
+    <div class="container-lg">
+        <div class="text-center">
+            <h2> <i class="bi bi-cash-coin"></i> Pricing plans
+            </h2>
+            <p class="lead text-muted">Choose a pricing plan to suit you</p>
+        </div>
+    </div>
+    <div class="row my-5 align-items-center justify-content-center g-3">
+        <div class="col=8 col-lg-4 col-xl-3">
+            <div class="card">
+            <div class="card-body text-center py-4">
+                <h4 class="card-title">Starter Edition</h4>
+                <p class="lead card-subtitle">eBook download only</p>
+                <p class="display-5 my-4 text-primary fw-bold">512.29</p>
+                <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing .</p>
+                <a  href="#"class="btn btn-outline-primary btn-lg mt-3">Buy now</a>
+            </div>
+            </div>
+        </div>
+        <div class="col=9 col-lg-4">
+            <div class="card border-primary border-2">
+                <div class="card-header text-center text-primary">Most popular</div>
+            <div class="card-body text-center py-5">
+                <h4 class="card-title">complete Edition</h4>
+                <p class="lead card-subtitle">eBook download only</p>
+                <p class="display-5 my-4 text-primary fw-bold">999.29</p>
+                <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing .</p>
+                <a  href="#"class="btn btn-outline-primary btn-lg mt-3">Buy now</a>
+            </div>
+            </div>
+        </div>
+        <div class="col=8 col-lg-4 col-xl-3">
+            <div class="card">
+            <div class="card-body text-center py-4">
+                <h4 class="card-title">Ultimate Edition</h4>
+                <p class="lead card-subtitle">eBook download only</p>
+                <p class="display-5 my-4 text-primary fw-bold">764.29</p>
+                <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing .</p>
+                <a  href="#"class="btn btn-outline-primary btn-lg mt-3">Buy now</a>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+<!--topics-->
+<section id="topics">
+    <div class="container-md">
+        <div class="text-center">
+            <h2><i class="bi bi-bookmark-heart"></i> Inside the book</h2>
+            <p class="text-secondary text-align-center">A simple glance to the chapters</p>
+        </div>
+<div class="row my-3 text-align-center justify-content-around g-5">
+    <div class="col-6 col-lg-4u">
+        <img src="at2.jfif " height="70%"img-fluid alt="alter image">
+    </div>
+
+    <div class=" col-6 col-lg-4">
+<!--accordian-->
+<div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter1" aria-expanded="true" aria-controls="chapter1">
+Chapter1- THE FUNDAMENTALS</button>
+      </h2>
+      <div id="chapter1" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+            <p> Clear argues that making small changes, or atomic habits, can lead to remarkable outcomes over time. He emphasizes the importance of focusing on small improvements consistently rather than striving for drastic changes that are difficult to maintain.</p>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+Chapter2-THE IST LAW</button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+         <p>Clear emphasizes the significance of environment in shaping habits. By making small changes to one's surroundings, individuals can create an environment that supports desired habits and discourages unwanted ones.</p>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+Chapter3-THE 2ND LAW</button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+        <p>It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the, though the transition does limit overflow.</p> 
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+    Chapter4-THE 3RD LAW </button>
+        </h2>
+        <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Clear discusses the role of identity in habit formation. He suggests that focusing on changing one's identity to align with desired habits can lead to more sustainable behavioral changes. Instead of simply trying to change what one does, it's about becoming the type of person who naturally engages in those behaviors.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+    Chapter5-THE 4RD LAW  </button>
+        </h2>
+        <div id="collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+       <p>James Clear suggests that making small, consistent changes in behavior can lead to significant improvements over time. This concept contrasts with the idea of trying to achieve big, dramatic changes all at once, which often leads to burnout or failure. By focusing on small, manageable habits, individuals can build momentum and gradually transform their lives.</p>          
+</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+    ADVANCED TACTICS  </button>
+        </h2>
+        <div id="collapsesix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Habit stacking involves integrating new habits into existing routines by pairing them with established behaviors. For example, if someone wants to start a daily meditation practice but struggles to remember to do it, they could stack it onto an existing habit like brushing their teeth. This strategy makes it easier to adopt new habits by leveraging existing routines and reducing the cognitive load of remembering to do them.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+    </div>
+</div>
+</section >
+
+<!--review list-->
+<section id="reviews" class="bg-light">
+    <div class="container-lg">
+        <div class="text-center">
+            <h2><i class="bi bi-stars"></i> Book review</h2>
+            <p class="lead">What my students have said about the book....</p>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="list-group">
+                <div class="list-group-item py-3">
+                    <h5 class="mb-1"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i> A must buy book forself-help </h5>
+                    <p class="mb-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A rem voluptatibus molestias quibusdam. Cumque quis magni reprehenderit dolores esse rem. 
+                     Mollitia adipisci incidunt beatae excepturi quos obcaecati reprehenderit delectus odit!</p>
+                </div>
+            </div>
+            <div class="list-group">
+                <div class="list-group-item py-3">
+                    <h5 class="mb-1"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i> It is really amazing book for begineers</h5>
+                    <p class="mb-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A rem voluptatibus molestias quibusdam. Cumque quis magni reprehenderit dolores esse rem. 
+                     Mollitia adipisci incidunt beatae excepturi quos obcaecati reprehenderit delectus odit!</p>
+                </div>
+            </div>
+            <div class="list-group">
+                <div class="list-group-item py-3">
+                    <h5 class="mb-1"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> Completely love this book, the habits which they have mentioned in this book was quietly useful</h5>
+                    <p class="mb-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A rem voluptatibus molestias quibusdam. Cumque quis magni reprehenderit dolores esse rem. 
+                     Mollitia adipisci incidunt beatae excepturi quos obcaecati reprehenderit delectus odit!</p>
+                </div>
+            </div>
+            <div class="list-group">
+                <div class="list-group-item py-3">
+                    <h5 class="mb-1"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i> A must buy book</h5>
+                    <p class="mb-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A rem voluptatibus molestias quibusdam. Cumque quis magni reprehenderit dolores esse rem. 
+                     Mollitia adipisci incidunt beatae excepturi quos obcaecati reprehenderit delectus odit!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--contact forms-->
+<section id="contact">
+    <div class="container-lg">
+        <div class="text-center">
+            <h2>Get in Touch</h2>
+            <p class="lead">Questions to ask? Fill out the form to contact me directly</p>
+        </div>
+    </div>
+
+<div class="row justify-content-center my-5">
+    <div class="col-lg-6">
+        <form action="">
+            <label for="email" class="form-label">Email address </label>
+            <div class="mb-4 input-group">
+                <span class="input-group-text">
+                    <i class="bi bi-envelope-at-fill"></i>                </span>
+                <input type="email" class="form-control" id="email" placeholder="e.g: gowsikapugalendhi@gmail.com">
+                <!--tooltip-->
+                <span class="input-group-text">
+                    <span class="tt" data-bs-placement="bottom" title="enter your email address we can reply to.">
+                    <i class="bi bi-question-circle text-muted"></i> 
+                </span>
+                </span>
+            </div>
+            <label for="name" class="form-label">Name </label>
+            <div class="mb-4 input-group">
+                <span class="input-group-text">
+                    <i class="bi bi-person-fill"></i>
+                </span>
+                <input type="name" class="form-control" id="name" placeholder="e.g: gowsika">
+                <span class="input-group-text">
+                    <span class="tt" data-bs-placement="bottom" title="enter your name where we can able to recongize you.">
+                    <i class="bi bi-question-circle text-muted"></i> 
+                </span>
+                </span>
+            </div>
+            <label for="phone number" class="form-label">Phone number </label>
+            <div class="mb-4 input-group">
+                <span class="input-group-text">
+                    <i class="bi bi-telephone-fill"></i>
+                </span>
+                <input type="phone number" class="form-control" id="phone number" placeholder="e.g: 9566947437">
+                <span class="input-group-text">
+                    <span class="tt" data-bs-placement="bottom" title="enter your correct phone number.">
+                    <i class="bi bi-question-circle text-muted"></i> 
+                </span>
+                </span>
+            </div>
+            <label for="subject" class="form-label">What is your question is about?</label>
+            <div class="mb-4 input-group">
+                <span class="input-group-text">
+                    <i class="bi bi-chat-right-dots-fill"></i>
+                </span>
+            <select class="form-select" id="subject">
+                <option value="pricing" selected>Pricing query</option>
+                <option value="content" selected>Content query</option>
+                <option value="other" selected>other query</option>
+            </select>
+            </div>
+            <div class="form-floating mt-3">
+                <textarea name="" id="" class="form-control" style="height: 140px"></textarea>
+                <label for="query">Your query....</label>
+            </div>
+            <div class="div mt-3 text-center">
+                <button type="button" class="btn btn-secondary">Sumbit</button>
+            </div>
+        </form>
+    </div>
+</div>
+</section>
+<!--modal triggers-->
+<section class="bg-light">
+    <div class="container">
+        <div class="text-center">
+            <h2>Stay in the Loop</h2>
+            <p class="lead">Get the latest updates as they happen</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+                <p class="text-muted my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit earum corporis illum maiores accusamus sequi totam odit saepe, neque, est necessitatibus dolor, quae labore odio facere eligendi quidem architecto iure!</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Register for Updates
+                  </button>
+            </div>
+        </div> 
+ </div>
+</section>
+<!--model itself-->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Get the Latest Updates</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit facilis quam nisi laudantium rerum, qui rem placeat eaque, inventore reiciendis temporibus, molestiae quibusdam in? Asperiores provident doloremque sit ea recusandae?</p>
+        <label for="model-email" class="form-label">Your email address</label>
+        <input type="email" class="form-control" id="model-email" placeholder="e.g: gowsikapugalendhi@gmail.com">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Sumbit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--offcanvas-->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+<div class="offcanvas-header">
+    <h5 class="offcanvas-title id" id="sidebar-label">Other Self-help books</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas maiores nihil eaque vitae porro incidunt tempora repellendus veritatis, cumque, eligendi in impedit facere eos quod iste ipsum fugit? Iure, dicta.</p>
+    <!--dropdown-->
+    <div class="dropdown mt-3">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Choose a book title
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">101 Essay that will change the way you thing</a></li>
+            <li><a class="dropdown-item" href="#"> The Mountain is you </a></li>
+            <li><a class="dropdown-item" href="#">Attitude is Everything</a></li>
+          </ul>
+    </div>
+</div>
+  </div>
+  <!--tabs-->
+  <div class="container my-5">
+    <nav>
+        <div class="nav nav-tabs" id="nav-tabs" role="tablist">
+            <button type="button" class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
+            <button type="button" class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="true">Profile</button>
+            <button type="button" class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="true">Contact</button>
+        </div>
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+<div class="tab-pane fade show active p-3" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+    <h2>Home</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates unde pariatur eius nisi voluptatibus, quod, blanditiis quos illo aspernatur, soluta eum quas eos officiis reprehenderit provident adipisci ratione eveniet? Itaque.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam provident ad porro odio temporibus ullam officia molestias ex harum. Asperiores at, nobis dolores accusamus architecto esse odit. Porro, qui totam.</p>
+</div>
+<div class="tab-pane fade show active p-3" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+    <h2>Profile</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates unde pariatur eius nisi voluptatibus, quod, blanditiis quos illo aspernatur, soluta eum quas eos officiis reprehenderit provident adipisci ratione eveniet? Itaque.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam provident ad porro odio temporibus ullam officia molestias ex harum. Asperiores at, nobis dolores accusamus architecto esse odit. Porro, qui totam.</p>
+</div>
+<div class="tab-pane fade show active p-3" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+    <h2>Contact</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates unde pariatur eius nisi voluptatibus, quod, blanditiis quos illo aspernatur, soluta eum quas eos officiis reprehenderit provident adipisci ratione eveniet? Itaque.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam provident ad porro odio temporibus ullam officia molestias ex harum. Asperiores at, nobis dolores accusamus architecto esse odit. Porro, qui totam.</p>
+</div>
+    </div>
+  </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+    <script>
+        const tooltips=document.querySelectorAll('.tt')
+        tooltips.forEach(t =>{
+            new bootstrap.Tooltip(t)
+        }
+    )
+    </script>  
+</body>
+</html>
